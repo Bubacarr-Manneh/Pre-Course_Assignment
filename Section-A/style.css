@@ -1,0 +1,321 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #E5E5E5;
+}
+.container {
+    background: white;
+    width: 55%;
+    margin: auto;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background:#111111c4;
+    position: relative;
+}
+    nav:active {
+        border: 2px solid rgb(8, 227, 243);
+        box-sizing: border-box;
+
+    }
+
+header {
+    width: 40%;
+    color: white;
+    font-family: Montserrat;
+    font-weight:normal;
+    margin: auto;
+    display: inline-block;
+    margin: 25px;
+    
+}
+nav ul{
+    list-style: none;
+    float: right;
+    padding: 20px;
+    
+}
+nav li{
+    display: inline-block;  
+    padding: 5px;
+    min-width: 100px;
+   
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    margin-left: 15px;}
+
+nav a:hover, header:hover {
+    text-decoration: 3px solid rgb(8, 227, 243) underline;
+    
+}
+
+#mobile-menu div {
+   
+    position: sticky;
+}
+
+.dot1{
+    margin: 2px;
+    float: right;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+}
+.dot2{ 
+    margin: 2px;
+    float: right;
+    width: 5px;
+    height: 5px;
+    background-color: green;
+}
+.dot3{
+    margin: 2px;
+    float: right;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+}
+.upper-sec {
+    background:url("images/Bg.jpg");
+    background-size: cover;
+    min-width: 60%;
+    min-height: 60vh;
+}
+
+
+.middle {
+ background:#0000008A ;
+ padding: 20px;
+ min-width: 60%;
+ min-height: 65vh;
+ position: relative;
+ justify-content: center;
+}
+
+
+.middle h1{
+    padding: 10px;
+    margin: 65px auto;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    left: 1vh ;
+}
+.middle p{
+    width: 70%;
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 90px auto;
+    cursor: pointer;
+
+}
+.main-links{
+    width: 40%;
+    margin: 25px auto;
+}
+
+.main-links li{
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.btn {
+    background: none;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid white;
+    justify-content: center center;
+    box-sizing: border-box;
+
+}
+
+.main-links li{
+    display: inline-block;
+    align-items: center center;
+    justify-content: center center;
+}
+.middle a {
+   
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+
+}
+.btn:hover, .main-links a:hover{
+    background: white;
+    color: black;
+    text-decoration: 3px solid rgb(8, 227, 243) underline;
+}
+
+
+.middle h1:hover, .middle p:hover{
+    text-decoration: 3px solid rgb(8, 227, 243) underline;
+}
+   
+
+#bottom {
+    margin: 50px auto;
+    margin-bottom: 250px;
+}
+
+#bottom h2 {
+   margin-top: 100px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#card-wrapper{
+    margin-left: 75px;
+    width: 85%;
+    margin-top: 100px;
+}
+
+.card {
+    width: 220px;
+    margin: 40px;
+    height: 280px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+.card h1{
+    text-align: center;
+    margin: 30px auto;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.card p{
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.card a{
+    font-family: Montserrat;
+    padding: 10;
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    #bottom h2:hover, #bottom a:hover, #bottom p:hover, #bottom h1:hover{
+        text-decoration: 3px solid rgb(8, 227, 243) underline;
+    }
+
+article a {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    margin: 38px;
+    border: 3px solid black;
+}
+
+footer {
+    width: auto;
+    height: 70px;
+    background:#000000c4;
+    position: relative;
+}
+
+footer h1 {
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding: 22px 20px;
+}
+
+.fa {
+    padding: 7px;
+    width: 50px;
+    font-size: 70px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+    display: flex;
+  }
+  
+    .fa-instagram {
+        color: #ee32b6;
+        /* color: white; */
+    }
+    .fa-linkedin {
+        color: #007bb5;
+    }
+      
+    .fa-twitter {
+        color: #0689ec;
+        font-size: 50px;
+    }
+    
+ 
+  .fa:hover {
+      
+      opacity: 0.5;
+      text-shadow: honeydew;
+  }
+ 
+
+
+    /* .social-media {
+        background: white;
+        width: 50px;
+        height: 50px;
+        margin: 20px;
+       display: inline-block;
+    } */
+ footer h1:hover{
+    text-decoration: 3px solid rgb(8, 227, 243) underline;
+ }
+
+@media screen and (max-width: 1024px){
+    .middle h1, #bottom h2, .button{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    nav ul{
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        background-color: coral;
+        opacity: 0;
+    }
+}
