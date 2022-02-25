@@ -1,0 +1,137 @@
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgb(197, 194, 194);
+    position: relative;
+}
+
+.check-mark{
+    color: white;
+    background: none;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+}
+
+.task-bg{
+    background: red;
+}
+
+#task-manager {
+    width: 95%;
+    height: 50%;
+    margin-left: 20px;
+    top: 10px;
+    position: sticky;
+    justify-content: center;
+}
+.main-header{
+    width: 95%;
+    height: 100px;
+    padding: 15px;
+    background: rgb(19, 17, 17);
+}
+.add-task{
+    margin-left: 2px;
+}
+h1{
+    color: white;
+    margin: 5px auto;
+    text-align: center;
+}
+.add-task input{
+    width: 80%;
+    height: 30px;
+    margin-right: 0;
+    position: relative;
+}
+.add-task input:focus{
+    outline: none;
+    border: 1px solid #8052ec;
+}
+#button{
+    background:rgb(212, 209, 209);
+    width: 15%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400px;
+    position:absolute;
+    cursor: pointer;
+}
+
+#new-tasks {
+    width:95%;
+    height: 35px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.tasks{
+    background: rgb(29, 191, 219);
+    width:95%;
+    height: 35px;
+}
+
+#tasktext{
+    color: white;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.strikeline{
+    text-decoration: line-through;
+
+}
+
+
+#delete{
+    background: none;
+    padding: 5px;
+    font-size: 20px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+.task2{
+    background: rgb(235, 233, 233);
+    width: 90%;
+    height: 30px;
+    padding: px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.task3, .task5, .task7{
+    background: white;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 15px;
+} */
+
+#remove-all{
+    background: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 35px auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+}
+
